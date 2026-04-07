@@ -128,7 +128,7 @@
 }
 @media (max-width: 320px) {
   .hero-img {
-    height: 85vh;
+    height: 100vh;
   }
     .hero-content {
     top: 80%;
