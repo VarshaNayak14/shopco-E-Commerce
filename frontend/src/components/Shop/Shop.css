@@ -56,12 +56,47 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 576px) {
   .product-grid {
     grid-template-columns: repeat(1, 1fr);
   }
   .product-card{
     padding: 10px;
     width: 100%;
+  }
+}
+
+/* ================= 375px MOBILE FIX ================= */
+@media (max-width: 400px) {
+
+  .shop-container {
+    padding: 15px;
+  }
+
+  .product-grid {
+    grid-template-columns: repeat(1, 1fr); /* single column */
+    gap: 15px;
+  }
+
+  .product-card {
+    padding: 12px;
+    border-radius: 10px;
+  }
+
+  .product-card img {
+    height: 160px; /* thoda chhota for mobile */
+  }
+
+  .product-card h4 {
+    font-size: 1rem;
+  }
+
+  .product-card p {
+    font-size: 0.9rem;
+  }
+
+  .product-card button {
+    padding: 8px;
+    font-size: 0.9rem;
   }
 }
