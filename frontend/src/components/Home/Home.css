@@ -168,6 +168,59 @@
 
 }
 
+@media (max-width: 800px) {
+
+  .hero-img {
+    height: 100vh;
+  }
+
+  .hero-content {
+    top: 55%;
+    width: 95%;
+  }
+
+  .hero-content h1 {
+    font-size: 1.6rem;
+    line-height: 1.2;
+  }
+
+  .hero-content p {
+    font-size: 0.85rem;
+    margin: 15px 0;
+  }
+
+  /* Buttons */
+  .hero-buttons {
+  display: flex;
+  flex-direction: row;        
+  justify-content: center;   
+  gap: 10px;
+}
+
+.hero-buttons button {
+  max-width: 120px;                
+  flex: 1;                    
+}
+  /* Stats */
+  .hero-stats {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .hero-stats div {
+    flex: 1;
+  }
+
+  .hero-stats h2 {
+    font-size: 1.1rem;
+  }
+
+  .hero-stats p {
+    font-size: 0.7rem;
+  }
+}
 
 /* ================= 375px MOBILE FIX ================= */
 @media (max-width: 400px) {
