@@ -1,0 +1,58 @@
+/* ================= BRANDS ================= */
+.brands {
+  text-align: center;
+  padding: 20px;
+  background: black;
+}
+
+/* LOGOS */
+.brand-logos {
+  display: flex;
+  justify-content: center;
+  gap: 60px; /* reduced */
+  margin-top: 15px;
+  flex-wrap: wrap; /* ✅ important */
+}
+
+/* TEXT */
+.brand-logos span {
+  font-family: cursive;
+  font-size: 26px;
+  color: white;
+}
+
+/* ================= TABLET ================= */
+@media (max-width: 992px) {
+  .brand-logos {
+    gap: 30px;
+  }
+
+  .brand-logos span {
+    font-size: 22px;
+  }
+}
+
+/* ================= MOBILE ================= */
+@media (max-width: 576px) {
+  .brand-logos {
+    gap: 20px;
+  }
+
+  .brand-logos span {
+    font-size: 18px;
+  }
+}
+
+/* ================= SMALL MOBILE (320px) ================= */
+@media (max-width: 320px) {
+
+  .brand-logos {
+    display: none; /* ✅ best for small screens */
+    grid-template-columns: repeat(2, 1fr); /* 2 per row */
+    gap: 10px;
+  }
+
+  .brand-logos span {
+    font-size: 16px;
+  }
+}

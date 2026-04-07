@@ -1,0 +1,218 @@
+.login-container{
+height:85vh;
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:0 80px;
+position:relative;
+
+background-image:url("https://www.shutterstock.com/image-photo/woman-stylish-dress-clothing-store-600nw-2706233259.jpg");
+background-size:cover;
+background-position:center;
+}
+
+/* overlay */
+
+.login-overlay{
+position:absolute;
+top:0;    
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.5);
+}
+
+/* LEFT CONTENT */
+
+.login-left{
+width:45%;
+color:white;
+z-index:2;
+}
+
+.login-left h1{
+font-size:60px;
+margin-bottom:20px;
+}
+
+.login-left p{
+font-size:18px;
+line-height:1.6;
+margin-bottom:30px;
+}
+
+.explore-btn{
+padding:12px 30px;
+background:#ff4b2b;
+border:none;
+color:white;
+font-size:16px;
+border-radius:6px;
+cursor:pointer;
+}
+
+/* glass form */
+
+.login-card{
+width:380px;
+padding:40px;
+border-radius:15px;
+text-align:center;
+z-index:2;
+
+background:rgba(255,255,255,0.1);
+backdrop-filter:blur(15px);
+border:1px solid rgba(255,255,255,0.2);
+
+box-shadow:0 8px 32px rgba(0,0,0,0.3);
+color:white;
+}
+
+.login-card h2{
+margin-bottom:10px;
+}
+
+.login-card p{
+color:#eee;
+margin-bottom:20px;
+}
+
+/* inputs */
+
+.input-group{
+margin-bottom:15px;
+}
+
+.input-group input{
+width:100%;
+padding:12px;
+border-radius:6px;
+border:none;
+outline:none;
+background:rgba(255,255,255,0.2);
+color:white;
+}
+
+.input-group input::placeholder{
+color:#ddd;
+}
+
+/* button */
+
+.login-btn{
+width:100%;
+padding:12px;
+background:#ff4b2b;
+border:none;
+color:white;
+font-size:16px;
+border-radius:6px;
+cursor:pointer;
+}
+
+.login-btn:hover{
+background:#e63e1f;
+}
+
+/* register link */
+
+.register-text{
+margin-top:15px;
+font-size:14px;
+}
+
+.register-text a{
+color:#ff4b2b;
+text-decoration:none;
+font-weight:bold;
+}
+
+.password-field {
+  position: relative;
+}
+
+.password-field input {
+  padding-right: 40px; /* 👈 space for icon */
+}
+
+/* 👁️ icon inside input */
+.eye-icon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+}
+/* ================= RESPONSIVE ================= */
+
+/* Tablet View */
+@media (max-width: 992px) {
+  .login-container {
+    flex-direction: column;
+    height: auto;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .login-left {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .login-left h1 {
+    font-size: 40px;
+  }
+
+  .login-left p {
+    font-size: 16px;
+  }
+
+  .login-card {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
+
+/* Mobile View */
+@media (max-width: 576px) {
+  .login-container {
+    padding: 20px;
+  }
+
+  .login-left h1 {
+    font-size: 30px;
+  }
+
+  .login-left p {
+    font-size: 14px;
+  }
+
+  .explore-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .login-card {
+    padding: 25px;
+    width: 100%;
+  }
+
+  .input-group input {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .login-btn {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .login-left {
+    display: none;
+  }
+}
