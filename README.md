@@ -115,12 +115,12 @@ npm start
 
 ### 🖥 Desktop View
 
-![Desktop](./screenshots/home.png)
-![Desktop-Cart](./screenshots/cart.png)
+![Desktop](home.png)
+![Desktop-Cart](cart.png)
 ### 📱 Mobile View
 
-![Mobile Home](./screenshots/mobile-home.png)
-![Mobile Cart](./screenshots/mobile-cart.png)
+![Mobile Home](mobile-home.png)
+![Mobile Cart](mobile-cart.png)
 
 ---
 
