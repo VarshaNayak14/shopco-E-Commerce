@@ -119,8 +119,8 @@ npm start
 ![Desktop-Cart](cart.png)
 ### 📱 Mobile View
 
-![Mobile Home](mobile-home.png)
-![Mobile Cart](mobile-cart.png)
+![Mobile Home](Mobile-home.png)
+![Mobile Cart](Mobile-cart.png)
 
 ---
 
