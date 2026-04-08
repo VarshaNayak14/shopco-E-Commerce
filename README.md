@@ -124,12 +124,6 @@ npm start
 
 ---
 
-## 🔗 API Endpoints
-
-### Products
-
-* GET /api/products → Get all products
-
 ### Cart (Frontend managed)
 
 * Add to cart
